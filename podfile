@@ -1,0 +1,16 @@
+
+target 'LoveFreshBenText' do
+pod 'AFNetworking'
+pod 'SVProgressHUD'
+end
+
+target 'LoveFreshBenTextTests' do
+
+pod 'AFNetworking'
+pod 'SVProgressHUD'
+
+end
+
+target 'LoveFreshBenTextUITests' do
+
+end
