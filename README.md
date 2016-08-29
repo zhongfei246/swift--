@@ -45,6 +45,7 @@
    7.订单详情
    
    ![image](https://github.com/zhongfei246/swift--/blob/master/%E7%88%B1%E9%B2%9C%E8%9C%82-model/screenhots/order_status.png)
+   
    ![image](https://github.com/zhongfei246/swift--/blob/master/%E7%88%B1%E9%B2%9C%E8%9C%82-model/screenhots/orderDetails.png)
    
    页面介绍：这个页面实现订单的具体详细信息。顶部自定义的NavigationBar的titleView，上面有个segment，当点击左侧的订单状态的时候，使用这个页面的tableview展示，当点击右侧的订单详情的时候隐藏本页面的tableview(注：本页面的tableview的cell左侧竖线是用三部分view画上去的，圆圈上面一小段、圆圈、圆圈下面一段)，展示另一个有订单详细信息的控制器的view（这个控制器作为本页面的childViewController，点击左侧显示本页面tableview隐藏子控制器的view，点击右侧隐藏本页面的tableview，显示子页面的view，具体详见代码）。
@@ -92,4 +93,4 @@
    页面介绍：上面绑定电话是一个封装的view，下面是个tableview列表！
 
 
-注：整个工程采用的所有数据均是本地化的数据，即所有的数据都是封装好的文件拖进的工程，具体可在Resource文件夹下看到。这个swift工程的代码纯粹是出于学习swift的目的而创建，具体仿制githup昵称为维尼的小熊的作者，在此非常感谢这位牛人！有什么问题可在githup上给我留言！谢谢！
+注：整个工程采用的所有数据均是本地化的数据，即所有的数据都是封装好的文件拖进的工程，具体可在Resource文件夹下看到。这个swift工程的代码纯粹是出于学习swift的目的而创建，具体仿制githup昵称为维尼的小熊的作者，在此非常感谢这位牛人！有什么问题可在github上给我留言！谢谢！
